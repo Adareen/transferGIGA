@@ -1,0 +1,114 @@
+{
+  "viaggi": [
+    {
+      "id": "1",
+      "tratta": "Torino-Napoli",
+      "costo": 100,
+      "mezzo": "Treno",
+      "durata": "6h",
+      "data": "20/03/2024",
+      "locandina": "https://hips.hearstapps.com/hmg-prod/images/napoli-1653914862.png",
+      "disponibilita": true
+    },
+    {
+      "id": "4",
+      "tratta": "Torino-Roma",
+      "costo": 50,
+      "mezzo": "Aereo",
+      "durata": "2",
+      "data": "20/03/2024",
+      "locandina": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJtOZeviNGkfPQ7Bw3A7HpK3l6Ad2vdED1V8CUFN6td8p55a0HwgdYgjd48nEQtSFYnOg&usqp=CAU",
+      "disponibilita": true
+    },
+    {
+      "id": "5",
+      "tratta": "Roma-Palermo",
+      "costo": 140,
+      "mezzo": "Aereo",
+      "durata": "1",
+      "data": "20/03/2024",
+      "locandina": "https://tourismmedia.italia.it/is/image/mitur/1600X1000_cosa_vedere_a_palermo_hero-1?wid=2160&hei=1320&fit=constrain,1&fmt=webp",
+      "disponibilita": true
+    },
+    {
+      "id": "2",
+      "tratta": "Roma-Barcellona",
+      "costo": 150,
+      "mezzo": "Aereo",
+      "durata": "2h",
+      "data": "20/03/2024",
+      "tipologia": [
+        {
+          "nome": "Business",
+          "costo": 50
+        },
+        {
+          "nome": "Premium",
+          "costo": 20
+        },
+        {
+          "nome": "Base",
+          "costo": 0
+        }
+      ],
+      "locandina": "https://www.costacrociere.it/content/dam/costa/costa-magazine/article-images/what-to-see-barcelona/barcellona-parc-guell_1.jpg.image.1296.974.high.jpg",
+      "disponibilita": true
+    }
+  ],
+  "bigliettiAcquistati": [
+    {
+      "id": "2523",
+      "nome": "Dario Mennillo",
+      "tratta": [
+        "2",
+        "1"
+      ],
+      "mail": "dario.mennillo@mail.com",
+      "metodoPagamento": "carta di credito"
+    },
+    {
+      "id": "234",
+      "nome": "Dario Mennillo",
+      "tratta": [
+        "2",
+        "1"
+      ],
+      "mail": "dario.mennillo@mail.com",
+      "metodoPagamento": "carta di credito"
+    },
+    {
+      "id": "3aec",
+      "nome": "",
+      "email": "",
+      "pagamento": "ApplePay",
+      "tratta": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "dfc5",
+      "nome": "",
+      "email": "",
+      "pagamento": "Paypal",
+      "tratta": []
+    },
+    {
+      "id": "4748",
+      "nome": "andrea Rizzo",
+      "email": "salvo.riz69@gmail.com",
+      "pagamento": "Paypal",
+      "tratta": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "d867",
+      "nome": "",
+      "email": "",
+      "pagamento": "Paypal",
+      "tratta": []
+    }
+  ]
+}

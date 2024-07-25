@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <h1>Registra User</h1>
+    <p>Tutti i campi sono obbligatori</p>
+
+    <input type="text" placeholder="Nome" id="nome"> <br>
+    <input type="text" placeholder="Cognome" id="cognome"> <br>
+    <input type="email" placeholder="Email" id="email"> <br>
+    <input type="tel" placeholder="Tel" id="telefono"> <br>
+
+    <button onclick="registra()">Registra</button>
+    <button onclick="stampaLista(listaUtenti)">stampa</button>
+
+    <div id="feed"></div>
+
+    <div id="demo">
+        <!-- Qui verrranno stampate le card degli utenti. All'interno della card ci sarà anche la data di registrazione (registrato il : 23/01/24) -->
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

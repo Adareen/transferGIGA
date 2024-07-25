@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <h1>compila form</h1>
+
+
+    <!-- www.miosito/chiave="valore" --- la parte dopo il / si chiama fragment, importante --> 
+    <!-- action è la pagina di atterraggio, dove mi porta l'url -->
+    <form action="paginaTiSeiRegistrato.html" id="formReg" method="get">
+        <label for="username">Username</label>
+        <input class="" type="text" name="username" id="elUsername"><br>
+       
+        <label for="email">Email</label>
+        <input class="" type="email" name="email" id="elEmail"><br>
+        
+        <label for="password">Password</label>
+        <input class="" type="password" name="password" id="elPassword"><br>
+        <button type="submit">Invia</button>
+        <!-- non metto id sul button perché non mi serve, ho l'evento di tipo form -->
+    </form>
+    <div id="demo"></div>
+
+    <!-- <script src="./js/script04-formControl.js"></script> -->
+
+    <script src="./js/script04-versioneJS.js"></script>
+
+
+  </body>
+</html>

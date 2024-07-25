@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>es8</h2>
+    <script>
+
+//Scrivi un programma che stampa il seguente pattern (chiede all’utente il numero di righe):
+
+function myf()
+{
+    let myval=Number(window.prompt("quante righe?"));
+    let stringasupport="";
+    for(let i =0; i<myval;i++)
+    {
+        for(let j=0; j<=i;j++)
+        {
+            stringasupport+="@ ";
+        }
+        stringasupport+="\n";
+    }
+    return console.log(stringasupport);
+}
+
+
+
+
+
+    </script>
+</body>
+</html>

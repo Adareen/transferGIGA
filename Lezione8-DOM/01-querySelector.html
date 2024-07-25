@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>lista spesa</h1>
+    <ul id="listaspesa">
+      <li id="uno">nutella</li>
+      <li id="due">biscotti</li>
+      <li id="tre">birra</li>
+      <li id="quattro">orate</li>
+      <li id="cinque">la coca non cola</li>
+      <li id="sei">valium</li>
+    </ul>
+
+    <div class="dimDiv">
+      <h2>lista libri</h2>
+      <ul>
+        <li>il mestiere di vivere</li>
+        <li>viaggio al centro della terra</li>
+        <li>delitto e java8</li>
+        <li>delitto e java8</li>
+        <li>viaggio al centro di js</li>
+        <li>la grande J</li>
+      </ul>
+    </div>
+
+    <div >
+      <h2>lista film</h2>
+      <ul>
+        <li>il mestiere di vivere</li>
+        <li>viaggio al centro della terra</li>
+        <li>delitto e java8</li>
+        <li>delitto e java8</li>
+        <li>viaggio al centro di js</li>
+        <li>la grande J</li>
+      </ul>
+    </div>
+
+    <script>
+      let listaSpesa = document.querySelector("#listaspesa");
+      console.log(typeof listaSpesa);
+      console.log(listaSpesa);
+
+      let titolo = document.querySelector("h1");
+      console.log(titolo);
+      let testoTitolo = titolo.textContent; // recupera il testo
+      console.log(testoTitolo);
+
+      let li = document.querySelector("li"); // in questo caso restituisce la prima occorrenza
+      console.log(li);
+
+      let li6 = document.querySelector("li#sei");
+      console.log(li6.textContent);
+
+      let titoloListaLibri= document.querySelector(" .dimDiv h2").textContent;
+      console.log(titoloListaLibri);
+
+      let primoLiLibro =document.querySelector("#listalibri li");
+      console.log(primoLiLibro);
+
+      let body=document.querySelector("body");
+      console.log(body.innerHTML);
+
+
+
+    </script>
+  </body>
+</html>

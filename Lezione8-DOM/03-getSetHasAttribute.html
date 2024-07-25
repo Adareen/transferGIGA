@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>lista spesa</h1>
+    <ul id="listaspesa">
+      <li id="uno">nutella</li>
+      <li id="due">biscotti</li>
+      <li id="tre">birra</li>
+      <li id="quattro">orate</li>
+      <li id="cinque">la coca non cola</li>
+      <li id="sei">valium</li>
+    </ul>
+
+    <div class="dimDiv red">
+      <h2>lista libri</h2>
+      <ul>
+        <li class="red">il mestiere di vivere</li>
+        <li class="red">viaggio al centro della terra</li>
+        <li class="red">delitto e java8</li>
+        <li class="red">delitto e java8</li>
+        <li class="red">viaggio al centro di js</li>
+        <li class="red">la grande J</li>
+      </ul>
+    </div>
+
+    <div >
+      <h2>lista film</h2>
+      <ul id="listafilm">
+        <li >java returns</li>
+        <li >avengers vs eclipse</li>
+        <li >harry ti presento java</li>
+        <li >j per json/li>
+      </ul>
+    </div>
+
+
+
+
+    <script>
+
+     let lifilm=document.querySelector("#listafilm li");
+
+     lifilm.forEach(li => {
+        li.setAttribuite("class", "blu");
+     });
+
+     
+       
+
+    </script>
+    
+</body>
+</html>

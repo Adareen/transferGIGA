@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Lista Spesa</h1>
+    <ul id="listaSpesa">
+        <li id="uno">Nutella</li>
+        <li id="due">Biscotti</li>
+        <li id="tre">Acqua</li>
+        <li id="quattro">Birra</li>
+        <li id="cinque">Orate</li>
+        <li id="sei">Insalata</li>
+    </ul>
+
+
+    <div class="dimDiv">
+        <h2>Lista Libri</h2>
+        <ul id="listaLibri">
+            <li>Java8 ed Eclipse</li>
+            <li>Il mestiere di vivero</li>
+            <li>Così parlò Java8</li>
+            <li>I dolori del giovane Programmatore</li>
+            <li>Una vita come tante</li>
+            <li>Delitto e Java8</li>
+            <li>Viaggio al centro di Javascript</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Lista Film</h21>
+            <li></li>
+            <li></li>
+            <li></li>
+    </div>
+
+    <script>
+
+        // let listaSpesa = document.getElementById("listaSpesa");
+        let listaSpesa = document.querySelector('#listaSpesa');
+        console.log(listaSpesa);
+
+        let titolo = document.querySelector("h1");
+        console.log(titolo);
+
+        let testoTitolo = titolo.textContent;
+        console.log(testoTitolo);
+
+        let li = document.querySelector("li"); //restituisce prima occorrenza
+        console.log(li);
+
+        let li6 = document.querySelector("li#sei");
+        console.log(li6.textContent);
+
+        let titoloListaLibri = document.querySelector(".dimDiv h2").textContent;
+        console.log(titoloListaLibri);
+
+        let primoLiLibro = document.querySelector("#listaLibri li");
+        console.log(primoLiLibro);
+
+        let body = document.querySelector("body");
+        console.log(body.innerHTML);
+
+
+    </script>
+</body>
+</html>

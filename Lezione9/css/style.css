@@ -1,0 +1,23 @@
+.dimDiv{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+
+.bgGreen{
+    background-color: green;
+    
+}
+
+.bgRed{
+    background-color: crimson;
+}
+
+.borderGreen{
+    border: 2px solid green;
+}
+
+.borderRed{
+    border: 2px solid red;
+}

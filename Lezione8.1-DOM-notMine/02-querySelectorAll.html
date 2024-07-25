@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lista Spesa</h1>
+    <ul id="listaSpesa">
+        <li id="uno">Nutella</li>
+        <li id="due">Biscotti</li>
+        <li id="tre">Acqua</li>
+        <li id="quattro">Birra</li>
+        <li id="cinque">Orate</li>
+        <li id="sei">Insalata</li>
+    </ul>
+
+
+    <div class="dimDiv">
+        <h2 class="txtRed">Lista Libri</h2>
+        <ul id="listaLibri">
+            <li class="txtRed">Java8 ed Eclipse</li>
+            <li class="txtRed">Il mestiere di vivero</li>
+            <li class="txtRed">Così parlò Java8</li>
+            <li class="txtRed">I dolori del giovane Programmatore</li>
+            <li class="txtRed">Una vita come tante</li>
+            <li class="txtRed">Delitto e Java8</li>
+            <li class="txtRed">Viaggio al centro di Javascript</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Lista Film</h2>
+        <ul id="listaFilm">
+            <li>Harry Potter e il prigioero di Javascript</li>
+            <li>Java Returns</li>
+            <li>Avengers VS Eclipse</li>
+            <li>J per JSON</li>
+        </ul>
+    </div>
+
+
+
+    <script>
+
+        let lis = document.querySelectorAll("li");
+        console.log(lis);
+
+        // Voglio leggere i testi dei sifoli li
+        // for (let i = 0; i < lis.length; i++) {
+        //     console.log(lis[i].textContent);  
+        // }
+
+        // i singoli li sono degli oggetti
+        lis.forEach(li =>{
+            console.log(typeof(li));
+        });
+        
+
+        //Voglio prendere solo i libri
+        // let liLibri = document.querySelectorAll("#listaLibri li");
+        // let liLibri = document.querySelector("li.textRed");
+        let liLibri = document.querySelectorAll(".dimDiv li.txtRed");
+        
+        console.log(liLibri);
+        liLibri.forEach(li =>{
+            console.log(li.textContent);
+        });
+
+        console.log(window);
+    </script>
+</body>
+</html>

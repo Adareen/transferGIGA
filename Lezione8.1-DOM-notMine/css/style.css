@@ -1,0 +1,25 @@
+.txtRed{
+    color: red;
+}
+
+.txtBlue{
+    color: blue;
+}
+
+.bgGreen{
+    background-color: greenyellow;
+}
+
+.dimLampadina{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.bgYellow{
+    background-color: yellow;
+}
+
+.txtBarrato{
+    text-decoration: line-through;
+}

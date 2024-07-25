@@ -1,0 +1,191 @@
+{
+  "rubrica": [
+    {
+      "id": "1",
+      "nome": "Anna",
+      "cognome": "Coca",
+      "email": "anna@email1.com",
+      "tel": "230498234"
+    },
+    {
+      "id": "2",
+      "nome": "Mario",
+      "cognome": "Rossi",
+      "email": "mario@email2.com",
+      "tel": "123456789"
+    },
+    {
+      "id": "3",
+      "nome": "Luca",
+      "cognome": "Bianchi",
+      "email": "luca@email3.com",
+      "tel": "987654321"
+    },
+    {
+      "id": "4",
+      "nome": "Giovanna",
+      "cognome": "Verdi",
+      "email": "giovanna@email4.com",
+      "tel": "555444333"
+    },
+    {
+      "id": "5",
+      "nome": "Marco",
+      "cognome": "Gialli",
+      "email": "marco@email5.com",
+      "tel": "777888999"
+    },
+    {
+      "id": "6",
+      "nome": "Sara",
+      "cognome": "Blu",
+      "email": "sara@email6.com",
+      "tel": "111222333"
+    },
+    {
+      "id": "7",
+      "nome": "Alessio",
+      "cognome": "Neri",
+      "email": "alessio@email7.com",
+      "tel": "444555666"
+    },
+    {
+      "id": "8",
+      "nome": "Elena",
+      "cognome": "Marroni",
+      "email": "elena@email8.com",
+      "tel": "888999000"
+    },
+    {
+      "id": "9",
+      "nome": "Lorenzo",
+      "cognome": "Rosa",
+      "email": "lorenzo@email9.com",
+      "tel": "999888777"
+    },
+    {
+      "id": "10",
+      "nome": "Giulia",
+      "cognome": "Arancioni",
+      "email": "giulia@email10.com",
+      "tel": "333222111"
+    },
+    {
+      "id": "11",
+      "nome": "Matteo",
+      "cognome": "Celesti",
+      "email": "matteo@email11.com",
+      "tel": "666777888"
+    },
+    {
+      "id": "12",
+      "nome": "Chiara",
+      "cognome": "Viola",
+      "email": "chiara@email12.com",
+      "tel": "222333444"
+    },
+    {
+      "id": "13",
+      "nome": "Giacomo",
+      "cognome": "Magenta",
+      "email": "giacomo@email13.com",
+      "tel": "999111222"
+    },
+    {
+      "id": "14",
+      "nome": "Francesca",
+      "cognome": "Turchesi",
+      "email": "francesca@email14.com",
+      "tel": "777333111"
+    },
+    {
+      "id": "15",
+      "nome": "Davide",
+      "cognome": "Cremisi",
+      "email": "davide@email15.com",
+      "tel": "555111999"
+    },
+    {
+      "id": "1551",
+      "nome": "Andrea",
+      "cognome": "Rizzo",
+      "email": "andrea.riz95@gmail.com",
+      "tel": "3270587753"
+    },
+    {
+      "id": "0250",
+      "nome": "Andrea",
+      "cognome": "Rizzo",
+      "email": "andrea.riz95@gmail.com",
+      "tel": "3270587753"
+    }
+  ],
+  "studenti": [
+    {
+      "id": "1",
+      "nome": "pippo",
+      "cognome": "franchi",
+      "corso": "albero"
+    },
+    {
+      "id": "2",
+      "nome": "paperino",
+      "cognome": "rossi",
+      "corso": "fiume"
+    },
+    {
+      "id": "3",
+      "nome": "topolino",
+      "cognome": "verdi",
+      "corso": "montagna"
+    },
+    {
+      "id": "4",
+      "nome": "pluto",
+      "cognome": "bianchi",
+      "corso": "spiaggia"
+    },
+    {
+      "id": "5",
+      "nome": "minnie",
+      "cognome": "gialli",
+      "corso": "deserto"
+    },
+    {
+      "id": "6",
+      "nome": "paperina",
+      "cognome": "neri",
+      "corso": "oceano"
+    },
+    {
+      "id": "7",
+      "nome": "qui",
+      "cognome": "blu",
+      "corso": "collina"
+    },
+    {
+      "id": "8",
+      "nome": "quo",
+      "cognome": "arancioni",
+      "corso": "foresta"
+    },
+    {
+      "id": "9",
+      "nome": "qua",
+      "cognome": "viola",
+      "corso": "prateria"
+    },
+    {
+      "id": "10",
+      "nome": "basettoni",
+      "cognome": "bianchini",
+      "corso": "campagna"
+    },
+    {
+      "id": "15",
+      "nome": "maria",
+      "cognome": "db",
+      "corso": "lol"
+    }
+  ]
+}
